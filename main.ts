@@ -51,6 +51,13 @@ if (!url.startsWith("https://x.com/") || !url.includes("/status/")) {
   fail("POST.json field `url` must be an X post address");
 }
 
+// The tail after "/status/" should start with the numeric post id.
+const statusTail: string = url.slice(url.indexOf("/status/") + "/status/".length);
+const postId: string = statusTail.split("/")[0];
+if (postId.length === 0 || !/^\d+$/.test(postId)) {
+  fail("POST.json field `url` must end with a numeric X post id after /status/");
+}
+
 // Validation passed: make sure the output directory exists,
 // then write the untouched original bytes to the target file.
 try {

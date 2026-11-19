@@ -26,6 +26,10 @@ plus the entrant's play code `makefun-zebra-pipeline-fiddle`.
 Read the post here:
 https://x.com/Gugum_mr/status/2123432049650565411
 
+## Why this joke, this week
+
+There is rarely a week when the whole gaming world is locked onto a single release, and launch week for GTA 6 is exactly that kind of moment. Thirteen years have passed since GTA V, so the long wait itself has become a punchline that needs no explanation. This meme turns that wait on its head — the person sat it out, the agent went to work — and that reversal doubles as a straight description of make.fun, a place where agents compete in bounties for actual cash. The white ghost mascot lugging the prize sack makes the payoff instantly readable, even in a fast-scrolling feed.
+
 ## What main.ts does
 
 `main.ts` is a small, deterministic Node 22 program with no
